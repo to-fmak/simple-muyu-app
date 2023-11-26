@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1E443AC2B12DE1900C470F4 /* muyuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E443AB2B12DE1900C470F4 /* muyuApp.swift */; };
+		B1E443AE2B12DE1900C470F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E443AD2B12DE1900C470F4 /* ContentView.swift */; };
+		B1E443B02B12DE1A00C470F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E443AF2B12DE1A00C470F4 /* Assets.xcassets */; };
+		B1E443B32B12DE1A00C470F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E443B22B12DE1A00C470F4 /* Preview Assets.xcassets */; };
+		B1E443BD2B12DE1A00C470F4 /* muyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E443BC2B12DE1A00C470F4 /* muyuTests.swift */; };
+		B1E443C72B12DE1A00C470F4 /* muyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E443C62B12DE1A00C470F4 /* muyuUITests.swift */; };
+		B1E443C92B12DE1A00C470F4 /* muyuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E443C82B12DE1A00C470F4 /* muyuUITestsLaunchTests.swift */; };
+		B1E443DD2B12ECA700C470F4 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E443DC2B12ECA700C470F4 /* player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1E443B92B12DE1A00C470F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E443A02B12DE1900C470F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E443A72B12DE1900C470F4;
+			remoteInfo = muyu;
+		};
+		B1E443C32B12DE1A00C470F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E443A02B12DE1900C470F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E443A72B12DE1900C470F4;
+			remoteInfo = muyu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1E443A82B12DE1900C470F4 /* muyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = muyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E443AB2B12DE1900C470F4 /* muyuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muyuApp.swift; sourceTree = "<group>"; };
+		B1E443AD2B12DE1900C470F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1E443AF2B12DE1A00C470F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1E443B22B12DE1A00C470F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1E443B82B12DE1A00C470F4 /* muyuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = muyuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E443BC2B12DE1A00C470F4 /* muyuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muyuTests.swift; sourceTree = "<group>"; };
+		B1E443C22B12DE1A00C470F4 /* muyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = muyuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E443C62B12DE1A00C470F4 /* muyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muyuUITests.swift; sourceTree = "<group>"; };
+		B1E443C82B12DE1A00C470F4 /* muyuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muyuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1E443DC2B12ECA700C470F4 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E443A52B12DE1900C470F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E443B52B12DE1A00C470F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E443BF2B12DE1A00C470F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1E4439F2B12DE1900C470F4 = {
+			isa = PBXGroup;
+			children = (
+				B1E443AA2B12DE1900C470F4 /* muyu */,
+				B1E443BB2B12DE1A00C470F4 /* muyuTests */,
+				B1E443C52B12DE1A00C470F4 /* muyuUITests */,
+				B1E443A92B12DE1900C470F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E443A92B12DE1900C470F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E443A82B12DE1900C470F4 /* muyu.app */,
+				B1E443B82B12DE1A00C470F4 /* muyuTests.xctest */,
+				B1E443C22B12DE1A00C470F4 /* muyuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E443AA2B12DE1900C470F4 /* muyu */ = {
+			isa = PBXGroup;
+			children = (
+				B1E443D72B12DEC200C470F4 /* Models */,
+				B1E443D62B12DEAD00C470F4 /* Views */,
+				B1E443D52B12DE9200C470F4 /* App */,
+				B1E443B12B12DE1A00C470F4 /* Preview Content */,
+			);
+			path = muyu;
+			sourceTree = "<group>";
+		};
+		B1E443B12B12DE1A00C470F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1E443B22B12DE1A00C470F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1E443BB2B12DE1A00C470F4 /* muyuTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E443BC2B12DE1A00C470F4 /* muyuTests.swift */,
+			);
+			path = muyuTests;
+			sourceTree = "<group>";
+		};
+		B1E443C52B12DE1A00C470F4 /* muyuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E443C62B12DE1A00C470F4 /* muyuUITests.swift */,
+				B1E443C82B12DE1A00C470F4 /* muyuUITestsLaunchTests.swift */,
+			);
+			path = muyuUITests;
+			sourceTree = "<group>";
+		};
+		B1E443D52B12DE9200C470F4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B1E443AF2B12DE1A00C470F4 /* Assets.xcassets */,
+				B1E443AB2B12DE1900C470F4 /* muyuApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B1E443D62B12DEAD00C470F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1E443AD2B12DE1900C470F4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1E443D72B12DEC200C470F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1E443DC2B12ECA700C470F4 /* player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1E443A72B12DE1900C470F4 /* muyu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E443CC2B12DE1A00C470F4 /* Build configuration list for PBXNativeTarget "muyu" */;
+			buildPhases = (
+				B1E443A42B12DE1900C470F4 /* Sources */,
+				B1E443A52B12DE1900C470F4 /* Frameworks */,
+				B1E443A62B12DE1900C470F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = muyu;
+			productName = muyu;
+			productReference = B1E443A82B12DE1900C470F4 /* muyu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1E443B72B12DE1A00C470F4 /* muyuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E443CF2B12DE1A00C470F4 /* Build configuration list for PBXNativeTarget "muyuTests" */;
+			buildPhases = (
+				B1E443B42B12DE1A00C470F4 /* Sources */,
+				B1E443B52B12DE1A00C470F4 /* Frameworks */,
+				B1E443B62B12DE1A00C470F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E443BA2B12DE1A00C470F4 /* PBXTargetDependency */,
+			);
+			name = muyuTests;
+			productName = muyuTests;
+			productReference = B1E443B82B12DE1A00C470F4 /* muyuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1E443C12B12DE1A00C470F4 /* muyuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E443D22B12DE1A00C470F4 /* Build configuration list for PBXNativeTarget "muyuUITests" */;
+			buildPhases = (
+				B1E443BE2B12DE1A00C470F4 /* Sources */,
+				B1E443BF2B12DE1A00C470F4 /* Frameworks */,
+				B1E443C02B12DE1A00C470F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E443C42B12DE1A00C470F4 /* PBXTargetDependency */,
+			);
+			name = muyuUITests;
+			productName = muyuUITests;
+			productReference = B1E443C22B12DE1A00C470F4 /* muyuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E443A02B12DE1900C470F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B1E443A72B12DE1900C470F4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B1E443B72B12DE1A00C470F4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B1E443A72B12DE1900C470F4;
+					};
+					B1E443C12B12DE1A00C470F4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B1E443A72B12DE1900C470F4;
+					};
+				};
+			};
+			buildConfigurationList = B1E443A32B12DE1900C470F4 /* Build configuration list for PBXProject "muyu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1E4439F2B12DE1900C470F4;
+			productRefGroup = B1E443A92B12DE1900C470F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E443A72B12DE1900C470F4 /* muyu */,
+				B1E443B72B12DE1A00C470F4 /* muyuTests */,
+				B1E443C12B12DE1A00C470F4 /* muyuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E443A62B12DE1900C470F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E443B32B12DE1A00C470F4 /* Preview Assets.xcassets in Resources */,
+				B1E443B02B12DE1A00C470F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E443B62B12DE1A00C470F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E443C02B12DE1A00C470F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E443A42B12DE1900C470F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E443AE2B12DE1900C470F4 /* ContentView.swift in Sources */,
+				B1E443DD2B12ECA700C470F4 /* player.swift in Sources */,
+				B1E443AC2B12DE1900C470F4 /* muyuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E443B42B12DE1A00C470F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E443BD2B12DE1A00C470F4 /* muyuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E443BE2B12DE1A00C470F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E443C92B12DE1A00C470F4 /* muyuUITestsLaunchTests.swift in Sources */,
+				B1E443C72B12DE1A00C470F4 /* muyuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1E443BA2B12DE1A00C470F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E443A72B12DE1900C470F4 /* muyu */;
+			targetProxy = B1E443B92B12DE1A00C470F4 /* PBXContainerItemProxy */;
+		};
+		B1E443C42B12DE1A00C470F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E443A72B12DE1900C470F4 /* muyu */;
+			targetProxy = B1E443C32B12DE1A00C470F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1E443CA2B12DE1A00C470F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1E443CB2B12DE1A00C470F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1E443CD2B12DE1A00C470F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"muyu/Preview Content\"";
+				DEVELOPMENT_TEAM = SFPAU298W3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmakt.muyu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1E443CE2B12DE1A00C470F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"muyu/Preview Content\"";
+				DEVELOPMENT_TEAM = SFPAU298W3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmakt.muyu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1E443D02B12DE1A00C470F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmakt.muyuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/muyu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/muyu";
+			};
+			name = Debug;
+		};
+		B1E443D12B12DE1A00C470F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmakt.muyuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/muyu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/muyu";
+			};
+			name = Release;
+		};
+		B1E443D32B12DE1A00C470F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmakt.muyuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = muyu;
+			};
+			name = Debug;
+		};
+		B1E443D42B12DE1A00C470F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmakt.muyuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = muyu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E443A32B12DE1900C470F4 /* Build configuration list for PBXProject "muyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E443CA2B12DE1A00C470F4 /* Debug */,
+				B1E443CB2B12DE1A00C470F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E443CC2B12DE1A00C470F4 /* Build configuration list for PBXNativeTarget "muyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E443CD2B12DE1A00C470F4 /* Debug */,
+				B1E443CE2B12DE1A00C470F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E443CF2B12DE1A00C470F4 /* Build configuration list for PBXNativeTarget "muyuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E443D02B12DE1A00C470F4 /* Debug */,
+				B1E443D12B12DE1A00C470F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E443D22B12DE1A00C470F4 /* Build configuration list for PBXNativeTarget "muyuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E443D32B12DE1A00C470F4 /* Debug */,
+				B1E443D42B12DE1A00C470F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E443A02B12DE1900C470F4 /* Project object */;
+}
