@@ -13,7 +13,8 @@ struct ContentView: View {
     @State private var isAutoPlayed: Bool = false
     @State private var isButtonDisabled: Bool = false
     @State private var workingTimer: Timer? = nil
-    @State private var sliderValue: Double = 0.5
+//    @State private var sliderValue: Double = 0.5
+    @AppStorage("sliderValue") private var sliderValue: Double = 0.5
     
     var body: some View {
         ZStack {
